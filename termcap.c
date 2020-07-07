@@ -89,7 +89,8 @@ int bufsize = 128;
 #endif
 
 #ifndef emacs
-static void
+
+static void 
 memory_out ()
 {
   write (2, "virtual memory exhausted\n", 25);

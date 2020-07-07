@@ -18,6 +18,8 @@
 #ifndef _TERMCAP_H
 #define _TERMCAP_H 1
 
+#pragma lib "/$M/lib/ape/libtermcap.a"
+
 #if __STDC__
 
 extern int tgetent (char *buffer, const char *termtype);
